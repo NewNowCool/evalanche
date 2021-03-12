@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evalanche Smart Forms API</title>
+
+    <style>
+      input,
+      select,
+      button {
+        display: block;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <input type="text" name="text" data-evalanche-type="simple" />
+      <textarea name="textarea" data-evalanche-type="simple"></textarea>
+      <select name="select" data-evalanche-type="simple">
+        <option value="">empty</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <input type="checkbox" name="boolean" value="1" data-evalanche-type="boolean" />
+      <input
+        type="checkbox"
+        name="checkbox"
+        value="1"
+        data-evalanche-type="checkbox"
+      />
+      <input
+        type="checkbox"
+        name="checkbox"
+        value="2"
+        data-evalanche-type="checkbox"
+      />
+      <input type="radio" name="radio" value="1" data-evalanche-type="radio" />
+      <input type="radio" name="radio" value="2" data-evalanche-type="radio" />
+      <input type="date" name="date" data-evalanche-type="date" />
+      <input type="datetime-local" name="datetime" data-evalanche-type="date" />
+
+      <button type="submit">submit</button>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

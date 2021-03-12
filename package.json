@@ -1,0 +1,13 @@
+{
+  "name": "@newnow/evalanche",
+  "version": "0.1.0",
+  "repository": "github:NewNowCool/evalanche",
+  "main": "src/main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel ./impl/index.html"
+  }
+}
